@@ -1,6 +1,19 @@
 //Fonts
-@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 300; 500; 900 & display = swap'); 
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 300; 500; 900 & display = swap');
 
+
+
+//variaveis
+@import "./variaveis.scss"; 
+
+
+//Components
+@import "./header.scss";
+@import "./nav-produtos";
+@import "./banners-promocionais-statico.scss";
 
 //FrameWork
-@import './bootstrap.scss';
+@import './bootstrap.scss'; 
+
+//Config
+@import "./config.scss";
