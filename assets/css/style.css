@@ -1,4 +1,74 @@
 @import url("https://fonts.googleapis.com/css2? family = Roboto: wght @ 300; 500; 900 & display = swap");
+header {
+  background: #7240cf;
+  color: #fff;
+  padding: 25px; }
+  header form input[type="text"] {
+    background: #fff;
+    width: 100%;
+    border-radius: 100px;
+    border: none;
+    padding: 10px 20px; }
+  header button {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 20px; }
+  header ul li {
+    position: relative; }
+    header ul li span.notificacao {
+      color: #fff;
+      background: #e83e8c;
+      position: absolute;
+      top: -12px;
+      left: 45px;
+      font-size: 10px;
+      width: 15px;
+      height: 15px;
+      border-radius: 100%; }
+    header ul li a {
+      font-size: 16px;
+      font-weight: bold;
+      color: #3a3939; }
+      header ul li a svg {
+        font-size: 23px; }
+      header ul li a:hover {
+        color: initial; }
+
+nav.nav-produtos {
+  background: #3a3939;
+  color: #fff; }
+  nav.nav-produtos a {
+    color: #fff; }
+  nav.nav-produtos ul.nav li {
+    position: relative;
+    padding: 10px 0; }
+    nav.nav-produtos ul.nav li svg {
+      font-size: 20px;
+      margin-right: 10px; }
+    nav.nav-produtos ul.nav li:hover {
+      background: #30185e; }
+      nav.nav-produtos ul.nav li:hover ul.nav {
+        display: block; }
+    nav.nav-produtos ul.nav li ul.nav {
+      z-index: 999;
+      display: none;
+      position: absolute;
+      top: 40px;
+      background: #7240cf;
+      border-bottom: solid #3a3939 7px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      width: 100%;
+      color: #fff; }
+
+.banners-promocionais-statico .banners-promocionais-statico-vez {
+  background-color: #e83e8c;
+  background-image: url("../images/parcele-em-12x.jpg"); }
+  .banners-promocionais-statico .banners-promocionais-statico-vez .banners-promocionais-statico-todo-br {
+    background-color: #870eeb;
+    background-image: url("../images/entrega-para-todo-brasil.jpg"); }
+
 /*!
  * Bootstrap v4.5.0 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -8776,5 +8846,10 @@ a.text-dark:focus, a.text-dark:hover {
     color: inherit;
     border-color: #dee2e6; } }
 /*# sourceMappingURL=bootstrap.css.map */
+body {
+  color: #3a3939; }
+
+a {
+  text-decoration: none !important; }
 
 /*# sourceMappingURL=style.css.map */
